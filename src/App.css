@@ -1,0 +1,85 @@
+.main {
+  width: 1200px;
+  margin: auto
+}
+
+.hangman {
+  width: 50%;
+  float: left;
+}
+
+.keyboard {
+  width: 250px;
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px 10px;
+  grid-auto-rows: 40px 40px;
+}
+
+.letter {
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  line-height: 40px;
+  font-size: 13pt;
+  text-decoration: none;
+  text-align: center;
+}
+
+.clean {
+  color: #000;
+  background: #A9D4E2;
+}
+
+.found {
+  color: white;
+  background: red;
+}
+
+.tried {
+  color: #000;
+  background: yellow;
+}
+
+.mask {
+  font-size: 2em;
+  margin: 20px;
+}
+
+.replay {
+  cursor: pointer;
+  display: block;
+  width: 100px;
+  height: 40px;
+  color: white;
+  text-decoration: bold;
+  background: green;
+  line-height: 40px;
+}
+
+.board {
+}
+
+.board table {
+  border-collapse: collapse;
+  width: 200px;
+  margin: auto;
+}
+
+.board th {
+  text-align: center;
+}
+
+.board td {
+  text-align: left;
+}
+
+.board th, td {
+  border: 1px solid black;
+  width: 100px;
+  padding: 2px 10px;
+}
